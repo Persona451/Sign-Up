@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <span class="bg-animate"></span>
+        <span class="bg-animate2"></span>
+
+        <div class="form-box login">
+            <h2 style="--i:0;">Sign Up</h2>
+            <form action="#">
+                <div class="input-box"
+                style="--i:1;">
+                    <input type="text" required>
+                    <label>First Name</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box"
+                style="--i:1;">
+                    <input type="text" required>
+                    <label>Last Name</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box"
+                style="--i:2;">
+                    <input type="text" required>
+                    <label>Phone Number</label>
+                    <i class='bx bxs-phone-call'></i>
+                </div>
+            <label class="role1" for="passenger">Passenger</label>
+            <input class="choose1" type="radio" id="passenger" name="user_type" value="passenger" required>
+            
+            <label class="role2" for="driver">Driver</label>
+            <input class="choose2" type="radio" id="driver" name="user_type" value="driver" required>
+                <button type="submit" class="btn"
+                style="--i:3;">Sign Up</button>
+            </form>
+        </div>
+        <div class="info-text login">
+            <img class="img" src="./img/na.png" alt="">
+            <p>Ecological, Fast and economical</p>
+        </div>
+        </div>
+        
+</body>
+
+</html>
